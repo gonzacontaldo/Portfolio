@@ -1,0 +1,18 @@
+[
+  { "name": "React", "icon": "FaReact" },
+  { "name": "Tailwind CSS", "icon": "SiTailwindcss" },
+  { "name": "Vite", "icon": "SiVite" },
+  { "name": "JavaScript", "icon": "FaJs" },
+  { "name": "CSS3", "icon": "FaCss3Alt" },
+  { "name": "Git", "icon": "FaGitAlt" },
+  { "name": "HTML5", "icon": "FaHtml5" },
+  { "name": "Bootstrap", "icon": "SiBootstrap" },
+  { "name": "JSON", "icon": "SiJson" },
+  { "name": "Python", "icon": "FaPython" },
+  { "name": "Node.js", "icon": "FaNodeJs" },
+  { "name": "MySQL", "icon": "FaDatabase" },
+  { "name": "PostgreSQL", "icon": "FaDatabase" },
+  { "name": "TypeScript", "icon": "SiTypescript" },
+  { "name": "Django", "icon": "SiDjango" },
+  { "name": "Linux", "icon": "FaLinux" }
+]

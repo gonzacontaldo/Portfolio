@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Computer Programming Diploma - (T186)",
+    "institution": "George Brown College",
+    "period": "2025 - 2027",
+    "image": "/images/gbc.png"
+  },
+  {
+    "title": "Titulo de Colegio Secundario",
+    "institution": "Casa Salesiana Santa Isabel",
+    "period": "2019 - 2024",
+    "image": "/images/colegio.png"
+  },
+  {
+    "title": "Certificado in Advanced English - C1",
+    "institution": "Cambridge University",
+    "period": "2022",
+    "image": "/images/cambridge.png"
+  }
+]

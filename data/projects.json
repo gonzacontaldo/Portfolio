@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Portfolio Personal",
+    "description": "Un sitio web moderno creado con React y Tailwind CSS.",
+    "image": "/images/portfolio.png",
+    "tech": ["React", "Tailwind", "Vite", "JavaScript", "CSS"],
+    "github": "https://github.com/tuusuario/portfolio",
+    "demo": "https://tuportfolio.com"
+  },
+  {
+    "title": "La Patrona - Restaurante",
+    "description": "Un sitio web para un restaurante con un diseño atractivo y funcional.",
+    "image": "/images/lapatrona.png",
+    "tech": ["React", "Bootstrap", "Vite", "JavaScript", "CSS", "HTML", "JSON"],
+    "github": "https://github.com/gonzacontaldo/la-patrona",
+    "demo": "https://la-patrona.vercel.app/"
+  }
+]
