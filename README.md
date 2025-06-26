@@ -1,12 +1,75 @@
-# React + Vite
+# 💼 Gonzalo Contaldo – Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenido a mi sitio personal, donde muestro quién soy, qué hago y algunos de los proyectos en los que he trabajado como desarrollador.
 
-Currently, two official plugins are available:
+![Portfolio Preview](./public/images/portfolio.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 En línea
 
-## Expanding the ESLint configuration
+🔗 https://gonzacontaldo.github.io/portfolio
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Tecnologías utilizadas
+
+- **React** + **Vite** ⚡
+- **Tailwind CSS** para estilos rápidos y responsivos
+- **Framer Motion** para animaciones suaves
+- **React Icons** para íconos accesibles y visuales
+- **GitHub Pages** para hosting
+- **JSON dinámico** para proyectos, tecnologías y educación
+- **Modo oscuro / claro**
+- **Soporte multilenguaje** (Español / Inglés)
+- **Diseño responsive y profesional**
+
+## ✨ Características
+
+- 🎯 Scroll suave entre secciones
+- 🌗 Alternancia de tema (oscuro/claro)
+- 🌐 Cambio de idioma en tiempo real
+- 📦 Carga dinámica de datos desde archivos JSON
+- 📸 Imágenes responsivas y bien integradas
+- 📱 Totalmente adaptado a dispositivos móviles
+- 🔒 Accesibilidad básica implementada (aria-labels)
+
+## 📂 Estructura
+my-portfolio/
+├── public/
+│ ├── images/
+│ ├── data/
+│ └── docs/
+├── src/
+│ ├── components/
+│ ├── data/
+│ ├── App.jsx
+│ └── main.jsx
+├── index.html
+├── vite.config.js
+└── README.md
+
+## 🛠️ Scripts útiles
+
+```bash
+npm install        # instalar dependencias
+npm run dev        # entorno de desarrollo
+npm run build      # compilar para producción
+npm run deploy     # subir a GitHub Pages
+```
+
+🔄 Deploy en GitHub Pages
+Este sitio se publica automáticamente en GitHub Pages, usando:
+
+vite.config.js con base /portfolio/
+
+gh-pages para subir el contenido compilado desde /dist
+
+```
+npm run deploy
+```
+
+👤 Autor
+Gonzalo Contaldo
+🧑‍💻 Estudiante de programación y desarrollador curioso
+📍 Argentina → Canadá
+🌐 GitHub | LinkedIn | Instagram
+
+📄 Licencia
+Este proyecto está bajo la licencia MIT. Usalo como referencia, inspiración o punto de partida.
