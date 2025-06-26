@@ -57,9 +57,9 @@ npm run deploy     # subir a GitHub Pages
 🔄 Deploy en GitHub Pages
 Este sitio se publica automáticamente en GitHub Pages, usando:
 
-vite.config.js con base /portfolio/
+- vite.config.js con base /portfolio/
 
-gh-pages para subir el contenido compilado desde /dist
+- gh-pages para subir el contenido compilado desde /dist
 
 ```
 npm run deploy
@@ -67,9 +67,9 @@ npm run deploy
 
 👤 Autor
 Gonzalo Contaldo
-🧑‍💻 Estudiante de programación y desarrollador curioso
-📍 Argentina → Canadá
-🌐 GitHub | LinkedIn | Instagram
+- 🧑‍💻 Estudiante de programación y desarrollador curioso
+- 📍 Argentina → Canadá
+- 🌐 GitHub | LinkedIn | Instagram
 
 📄 Licencia
-Este proyecto está bajo la licencia MIT. Usalo como referencia, inspiración o punto de partida.
+- Este proyecto está bajo la licencia MIT. Usalo como referencia, inspiración o punto de partida.
