@@ -1,4 +1,6 @@
 import { TypeAnimation } from 'react-type-animation';
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+
 
 export default function Hero({ language = "es" }) {// Cambiá esto por props o contexto más adelante
 
@@ -59,6 +61,36 @@ export default function Hero({ language = "es" }) {// Cambiá esto por props o c
           <a href="#contact" className="px-6 py-3 border border-primary rounded text-primary hover:bg-primary hover:text-white transition">
             {t.contact}
           </a>
+          <div className="flex space-x-6 mt-6 text-primary text-xl">
+            <a
+              href="https://github.com/gonzacontaldo"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-dark dark:hover:text-white transition"
+              aria-label="GitHub"
+            >
+              <FaGithub />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/gonzacontaldo/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-dark dark:hover:text-white transition"
+              aria-label="LinkedIn"
+            >
+              <FaLinkedin />
+            </a>
+            <a
+              href="https://instagram.com/gonzacontaldo"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-dark dark:hover:text-white transition"
+              aria-label="Instagram"
+            >
+              <FaInstagram />
+            </a>
+          </div>
+
         </div>
       </div>
 
