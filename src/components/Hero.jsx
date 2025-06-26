@@ -56,13 +56,13 @@ export default function Hero({ language = "es" }) {// Cambiá esto por props o c
 
         <div className="flex flex-wrap gap-4 justify-center md:justify-start mb-6">
           <a
-            href="#projects"
+            href="#proyectos"
             className="px-6 py-3 bg-primary text-white rounded shadow hover:bg-opacity-90 transition"
           >
             {t.viewProjects}
           </a>
           <a
-            href="#contact"
+            href="#contacto"
             className="px-6 py-3 border border-primary rounded text-primary hover:bg-primary hover:text-white transition"
           >
             {t.contact}
