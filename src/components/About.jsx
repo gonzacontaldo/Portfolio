@@ -64,7 +64,7 @@ export default function About({ language = "es" }) {
   const t = texts[language];
 
   return (
-    <section id="about" className="py-24 px-6 md:px-24 text-dark dark:text-white relative overflow-hidden">
+    <section id="sobremí" className="py-24 px-6 md:px-24 text-dark dark:text-white relative overflow-hidden">
       <motion.div 
         className="absolute -top-10 -left-10 w-64 h-64 bg-primary/20 rounded-full filter blur-3xl opacity-30"
         animate={{ x: [0, 20, 0], y: [0, 20, 0] }}

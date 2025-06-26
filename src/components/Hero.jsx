@@ -37,7 +37,7 @@ export default function Hero({ language = "es" }) {// Cambiá esto por props o c
   console.log("Idioma actual:", language);
 
   return (
-    <section id="home" className="min-h-screen flex flex-col md:flex-row items-center justify-center px-8 md:px-24 text-[#393e41] dark:text-white relative z-10">
+    <section id="inicio" className="min-h-screen flex flex-col md:flex-row items-center justify-center px-8 md:px-24 text-[#393e41] dark:text-white relative z-10">
       <div className="md:w-1/2 mb-12 md:mb-0">
         <h1 className="text-4xl sm:text-5xl font-bold mb-4">
           {t.greeting} <span className="text-primary">Gonzalo Contaldo</span>
