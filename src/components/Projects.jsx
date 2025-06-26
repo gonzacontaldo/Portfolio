@@ -23,7 +23,7 @@ export default function Projects({ language = "es" }) {
   const t = texts[language];
 
   return (
-    <section id="projectos" className="py-24 px-6 md:px-24 text-[#393e41] dark:text-white">
+    <section id="proyectos" className="py-24 px-6 md:px-24 text-[#393e41] dark:text-white">
       <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-primary">
         {t.title}
       </h2>
