@@ -6,7 +6,7 @@ export default function ProjectCard({ title, description, image, tech, github, d
       {/* Imagen con overlay */}
       <div className="relative w-full h-56 overflow-hidden">
         <img
-          src={image}
+          src={`${import.meta.env.BASE_URL}${image}`}
           alt={title}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
         />
