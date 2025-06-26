@@ -38,8 +38,8 @@ export default function About({ language = "es" }) {
   // Esto lo vas a cambiar por un prop o context // o "en"
 
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}/data/skills.json`).then(res => res.json()).then(setSkills);
-    fetch(`${import.meta.env.BASE_URL}/data/education.json`).then(res => res.json()).then(setEducation);
+    fetch(`${import.meta.env.BASE_URL}data/skills.json`).then(res => res.json()).then(setSkills);
+    fetch(`${import.meta.env.BASE_URL}data/education.json`).then(res => res.json()).then(setEducation);
   }, []);
 
   const texts = {
@@ -125,7 +125,7 @@ export default function About({ language = "es" }) {
           <div className="space-y-4 max-w-xl mx-auto">
             {education.map((item, index) => (
               <div key={index} className="bg-white dark:bg-white/5 rounded shadow px-6 py-4 border-l-4 border-primary hover:shadow-lg transition-shadow flex items-center gap-4">
-                <img src={item.image} alt={item.institution} className="w-10 h-10 object-contain" />
+                <img src={`${import.meta.env.BASE_URL}${item.image}`} alt={item.institution} className="w-10 h-10 object-contain" />
                 <div>
                   <h4 className="font-semibold text-lg">{item.title}</h4>
                   <p className="text-sm text-gray-700 dark:text-gray-300">{item.institution} · {item.period}</p>

@@ -5,7 +5,7 @@ export default function Projects({ language = "es" }) {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch("/data/projects.json")
+    fetch(`${import.meta.env.BASE_URL}data/projects.json`)
       .then((res) => res.json())
       .then((data) => setProjects(data))
       .catch((err) => console.error("Error cargando proyectos:", err));
