@@ -64,7 +64,7 @@ export default function Hero({ language = "es" }) {// Cambiá esto por props o c
 
       <div className="md:w-1/2 flex justify-center">
         <img
-          src="/images/avatar.png"
+          src={`${import.meta.env.BASE_URL}/images/avatar.png`}
           alt="Gonzalo Contaldo"
           className="rounded-full w-64 h-64 object-cover shadow-lg"
         />

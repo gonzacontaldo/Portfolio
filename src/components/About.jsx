@@ -38,8 +38,8 @@ export default function About({ language = "es" }) {
   // Esto lo vas a cambiar por un prop o context // o "en"
 
   useEffect(() => {
-    fetch("/data/skills.json").then(res => res.json()).then(setSkills);
-    fetch("/data/education.json").then(res => res.json()).then(setEducation);
+    fetch(`${import.meta.env.BASE_URL}/data/skills.json`).then(res => res.json()).then(setSkills);
+    fetch(`${import.meta.env.BASE_URL}/data/education.json`).then(res => res.json()).then(setEducation);
   }, []);
 
   const texts = {
