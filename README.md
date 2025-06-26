@@ -6,7 +6,7 @@ Bienvenido a mi sitio personal, donde muestro quién soy, qué hago y algunos de
 
 ## 🌐 En línea
 
-🔗 https://gonzacontaldo.github.io/portfolio
+🔗 https://gonzacontaldo.github.io/Portfolio
 
 ## 🚀 Tecnologías utilizadas
 
