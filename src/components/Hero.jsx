@@ -54,44 +54,52 @@ export default function Hero({ language = "es" }) {// Cambiá esto por props o c
 
 
 
-        <div className="flex space-x-6">
-          <a href="#projects" className="px-6 py-3 bg-primary text-white rounded shadow hover:bg-opacity-90 transition">
+        <div className="flex flex-wrap gap-4 justify-center md:justify-start mb-6">
+          <a
+            href="#projects"
+            className="px-6 py-3 bg-primary text-white rounded shadow hover:bg-opacity-90 transition"
+          >
             {t.viewProjects}
           </a>
-          <a href="#contact" className="px-6 py-3 border border-primary rounded text-primary hover:bg-primary hover:text-white transition">
+          <a
+            href="#contact"
+            className="px-6 py-3 border border-primary rounded text-primary hover:bg-primary hover:text-white transition"
+          >
             {t.contact}
           </a>
-          <div className="flex space-x-6 mt-6 text-primary text-xl">
-            <a
-              href="https://github.com/gonzacontaldo"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-dark dark:hover:text-white transition"
-              aria-label="GitHub"
-            >
-              <FaGithub />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/gonzacontaldo/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-dark dark:hover:text-white transition"
-              aria-label="LinkedIn"
-            >
-              <FaLinkedin />
-            </a>
-            <a
-              href="https://instagram.com/gonzacontaldo"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-dark dark:hover:text-white transition"
-              aria-label="Instagram"
-            >
-              <FaInstagram />
-            </a>
-          </div>
-
         </div>
+
+        <div className="flex gap-6 justify-center md:justify-start text-3xl">
+          <a
+            href="https://github.com/gonzacontaldo"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+            className="hover:scale-110 transition transform"
+          >
+            <FaGithub className="text-[#181717] dark:text-white transition-colors" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/gonzalo-contaldo-720b94341/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+            className="hover:scale-110 transition transform"
+          >
+            <FaLinkedin style={{ color: "#0077B5" }} />
+          </a>
+          <a
+            href="https://www.instagram.com/gonzacontaldo/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+            className="hover:scale-110 transition transform"
+          >
+            <FaInstagram style={{ color: "#E4405F" }} />
+          </a>
+        </div>
+
+        
       </div>
 
       <div className="md:w-1/2 flex justify-center">
