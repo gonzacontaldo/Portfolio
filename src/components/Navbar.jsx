@@ -21,7 +21,7 @@ const texts = {
 
 const links = ["Inicio", "Sobre mí", "Proyectos", "Contacto"].map((name) => ({
   name,
-  href: `#${name.toLowerCase().replace(" ", "")}`,
+  href: `${import.meta.env.BASE_URL}#${name.toLowerCase().replace(" ", "")}`,
 }));
 
 export default function Navbar({
