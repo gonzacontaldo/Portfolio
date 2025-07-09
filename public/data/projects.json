@@ -14,5 +14,13 @@
     "tech": ["React", "Bootstrap", "Vite", "JavaScript", "CSS", "HTML", "JSON"],
     "github": "https://github.com/gonzacontaldo/la-patrona",
     "demo": "https://la-patrona.vercel.app/"
+  },
+  {
+    "title": "To Do App - Interactive Task Manager",
+    "description": "Una aplicación de gestión de tareas interactiva y fácil de usar.",
+    "image": "/images/todo.png",
+    "tech": ["Next.js","React","Tailwind CSS","Node.js","Express.js","MongoDB","JWT (JSON Web Token)","bcryptjs"],
+    "github": "https://github.com/gonzacontaldo/todo-app",
+    "demo": "https://todo-app.vercel.app/"
   }
 ]
