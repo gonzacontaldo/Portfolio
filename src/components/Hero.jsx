@@ -3,6 +3,7 @@ import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 
 export default function Hero({ language = "es" }) {// Cambiá esto por props o contexto más adelante
+  const resumePath = `${import.meta.env.BASE_URL}resume.pdf`;
 
   const texts = {
     es: {
@@ -17,6 +18,7 @@ export default function Hero({ language = "es" }) {// Cambiá esto por props o c
       ],
       viewProjects: "Ver proyectos",
       contact: "Contáctame",
+      resume: "Descargar CV",
     },
     en: {
       greeting: "Hi, I'm",
@@ -30,6 +32,7 @@ export default function Hero({ language = "es" }) {// Cambiá esto por props o c
       ],
       viewProjects: "View Projects",
       contact: "Contact Me",
+      resume: "Download Resume",
     }
   };
 
@@ -67,6 +70,14 @@ export default function Hero({ language = "es" }) {// Cambiá esto por props o c
           >
             {t.contact}
           </a>
+          <a
+            href={resumePath}
+            download="Gonzalo-Contaldo-Resume.pdf"
+            className="px-6 py-3 border border-primary rounded text-primary hover:bg-primary hover:text-white transition"
+          >
+            {t.resume}
+          </a>
+          
         </div>
 
         <div className="flex gap-6 justify-center md:justify-start text-3xl">
