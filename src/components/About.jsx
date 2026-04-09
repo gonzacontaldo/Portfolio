@@ -34,6 +34,7 @@ export default function About({ language = "es" }) {
   const [skills, setSkills] = useState([]);
   const [education, setEducation] = useState([]);
   const sortedSkills = [...skills].sort((a, b) => a.name.localeCompare(b.name));
+  const toAssetPath = (path) => encodeURI(`${import.meta.env.BASE_URL}${path.replace(/^\/+/, "")}`);
 
   // Esto lo vas a cambiar por un prop o context // o "en"
 
@@ -50,6 +51,7 @@ export default function About({ language = "es" }) {
       intro3: "Me considero autodidacta, curioso y con la cabeza puesta en el futuro. Cada línea de código es un paso más en el camino hacia algo que todavía no conozco, pero que estoy decidido a construir.",
       techTitle: "Tecnologías que uso",
       eduTitle: "Educación & Certificaciones",
+      proof: "Descargar comprobante",
     },
     en: {
       title: "About Me",
@@ -58,6 +60,7 @@ export default function About({ language = "es" }) {
       intro3: "I have a completed diploma on Computer Programming and I'm self-taught in various technologies, curious, and future-focused. Every line of code is another step toward something I haven’t discovered yet—but I’m determined to build it.",
       techTitle: "Technologies I Use",
       eduTitle: "Education & Certifications",
+      proof: "Download Transcript",
     }
   };
 
@@ -124,11 +127,22 @@ export default function About({ language = "es" }) {
           </h3>
           <div className="space-y-4 max-w-xl mx-auto">
             {education.map((item, index) => (
-              <div key={index} className="bg-white dark:bg-white/5 rounded shadow px-6 py-4 border-l-4 border-primary hover:shadow-lg transition-shadow flex items-center gap-4">
-                <img src={`${import.meta.env.BASE_URL}${item.image}`} alt={item.institution} className="w-10 h-10 object-contain" />
-                <div>
+              <div key={index} className="bg-white dark:bg-white/5 rounded shadow px-6 py-4 border-l-4 border-primary hover:shadow-lg transition-shadow flex items-start gap-4">
+                <img src={toAssetPath(item.image)} alt={item.institution} className="w-10 h-10 object-contain" />
+                <div className="flex-1">
                   <h4 className="font-semibold text-lg">{item.title}</h4>
                   <p className="text-sm text-gray-700 dark:text-gray-300">{item.institution} · {item.period}</p>
+                  {item.proofFile ? (
+                    <div className="mt-4 flex flex-wrap gap-3">
+                      <a
+                        href={toAssetPath(item.proofFile)}
+                        download
+                        className="px-4 py-2 text-sm bg-primary text-white rounded shadow hover:bg-opacity-90 transition"
+                      >
+                        {t.proof}
+                      </a>
+                    </div>
+                  ) : null}
                 </div>
               </div>
             ))}
