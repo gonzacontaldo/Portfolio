@@ -14,5 +14,12 @@
     "tech": ["React", "Bootstrap", "Vite", "JavaScript", "CSS", "HTML", "JSON"],
     "github": "https://github.com/gonzacontaldo/la-patrona",
     "demo": "https://la-patrona.vercel.app/"
+  },
+  {
+    "title": "LaRedonda",
+    "description": "",
+    "image": "/images/ecommerce.png",
+    "tech": ["React", "Redux", "Tailwind", "Vite", "JavaScript", "CSS"],
+    "github": "
   }
 ]
