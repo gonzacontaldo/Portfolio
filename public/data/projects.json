@@ -16,11 +16,10 @@
     "demo": "https://la-patrona.vercel.app/"
   },
   {
-    "title": "To Do App - Interactive Task Manager",
-    "description": "Una aplicación de gestión de tareas interactiva y fácil de usar.",
-    "image": "/images/todo.png",
-    "tech": ["Next.js","React","Tailwind CSS","Node.js","Express.js","MongoDB","JWT (JSON Web Token)","bcryptjs"],
-    "github": "https://github.com/gonzacontaldo/todo-app",
-    "demo": "https://todo-app.vercel.app/"
+    "title": "LaRedonda",
+    "description": "",
+    "image": "/images/ecommerce.png",
+    "tech": ["React", "Redux", "Tailwind", "Vite", "JavaScript", "CSS"],
+    "github": "
   }
 ]

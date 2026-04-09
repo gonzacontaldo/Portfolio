@@ -55,7 +55,7 @@ export default function About({ language = "es" }) {
       title: "About Me",
       intro1: "I'm Gonzalo, a 19-year-old programmer constantly exploring. I don't have all the answers or a defined path… and I love that.",
       intro2: "I'm passionate about learning, trying new technologies, and figuring out which area of development excites me the most—from visual design to backend logic. I don’t limit myself to being 'frontend' or 'backend' because what I really want is to understand, create, and grow.",
-      intro3: "I'm self-taught, curious, and future-focused. Every line of code is another step toward something I haven’t discovered yet—but I’m determined to build it.",
+      intro3: "I have a completed diploma on Computer Programming and I'm self-taught in various technologies, curious, and future-focused. Every line of code is another step toward something I haven’t discovered yet—but I’m determined to build it.",
       techTitle: "Technologies I Use",
       eduTitle: "Education & Certifications",
     }
