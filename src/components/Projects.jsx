@@ -21,6 +21,10 @@ export default function Projects({ language = "es" }) {
   };
 
   const t = texts[language];
+  const localizedProjects = projects.map((project) => ({
+    ...project,
+    description: language === "en" ? project.descriptionEn || project.description : project.description,
+  }));
 
   return (
     <section id="proyectos" className="py-24 px-6 md:px-24 text-[#393e41] dark:text-white">
@@ -28,7 +32,7 @@ export default function Projects({ language = "es" }) {
         {t.title}
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-        {projects.map((project, index) => (
+        {localizedProjects.map((project, index) => (
           <ProjectCard key={index} {...project} />
         ))}
       </div>
