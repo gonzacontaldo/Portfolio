@@ -1,25 +1,58 @@
 [
   {
-    "title": "Portfolio Personal",
-    "description": "Un sitio web moderno creado con React y Tailwind CSS.",
-    "image": "/images/portfolio.png",
-    "tech": ["React", "Tailwind", "Vite", "JavaScript", "CSS"],
-    "github": "https://github.com/tuusuario/portfolio",
-    "demo": "https://tuportfolio.com"
-  },
-  {
     "title": "La Patrona - Restaurante",
-    "description": "Un sitio web para un restaurante con un diseño atractivo y funcional.",
+    "description": "Sitio web para un restaurante que combina identidad visual, navegación clara y llamadas a la acción para presentar el menú, la experiencia del lugar y sus canales de contacto.",
     "image": "/images/lapatrona.png",
-    "tech": ["React", "Bootstrap", "Vite", "JavaScript", "CSS", "HTML", "JSON"],
+    "tech": ["React", "TypeScript", "Vite", "Bootstrap", "React Router", "CSS", "Vercel"],
     "github": "https://github.com/gonzacontaldo/la-patrona",
     "demo": "https://la-patrona.vercel.app/"
   },
   {
     "title": "LaRedonda",
-    "description": "",
-    "image": "/images/ecommerce.png",
-    "tech": ["React", "Redux", "Tailwind", "Vite", "JavaScript", "CSS"],
-    "github": "
+    "description": "Plataforma full stack enfocada en el fútbol amateur para organizar partidos, gestionar equipos, reservar canchas y conectar jugadores desde una experiencia web, móvil y backend unificados.",
+    "image": "/images/laredonda.png",
+    "tech": ["React", "TypeScript", "Vite", "Django", "Django REST Framework", "PostgreSQL", "Expo", "Docker"],
+    "github": "https://github.com/gonzacontaldo/LaRedonda",
+    "demo": ""
+  },
+  {
+    "title": "OzarkLMS",
+    "description": "Sistema de gestión de aprendizaje desarrollado en equipo para centralizar cursos, módulos, entregas, calendario, colaboración y comunicación entre estudiantes e instructores en una sola plataforma.",
+    "image": "/images/ozarklms.png",
+    "tech": ["C#", "ASP.NET Core MVC", "Entity Framework Core", "PostgreSQL", "Bootstrap", "SignalR", "QuestPDF", "Azure"],
+    "github": "https://github.com/Luistello87/OzarkLMS",
+    "demo": "https://ozarklms-crakb2dqdqb4crfn.canadacentral-01.azurewebsites.net"
+  },
+  {
+    "title": "Subscription Tracker",
+    "description": "Aplicación móvil offline-first para registrar suscripciones, anticipar renovaciones y visualizar el gasto mensual con recordatorios inteligentes, perfiles locales y métricas claras de consumo.",
+    "image": "",
+    "tech": ["React Native", "Expo", "TypeScript", "SQLite", "Expo Notifications", "Express", "Prisma", "Neon"],
+    "github": "https://github.com/gonzacontaldo/subscription-tracker",
+    "demo": ""
+  },
+  {
+    "title": "Mi Portfolio Personal",
+    "description": "Sitio personal responsive donde presento proyectos, habilidades y experiencia con animaciones sutiles, modo oscuro, soporte multilenguaje y contenido cargado dinámicamente desde archivos JSON.",
+    "image": "/images/portfolio.png",
+    "tech": ["React", "Vite", "Tailwind CSS", "Framer Motion", "GitHub Pages", "JavaScript", "JSON"],
+    "github": "https://github.com/gonzacontaldo/Portfolio",
+    "demo": "https://gonzacontaldo.github.io/Portfolio"
+  },
+  {
+    "title": "Soccer Statistics Scraper",
+    "description": "Aplicación en Django para consumir la API de fútbol, normalizar datos de selecciones y competiciones internacionales, y almacenarlos en una base estructurada lista para análisis y visualización.",
+    "image": "",
+    "tech": ["Python", "Django", "SQLite", "Requests", "API-Football", "HTML"],
+    "github": "",
+    "demo": ""
+  },
+  {
+    "title": "CSX - 3D Scanning Automation",
+    "description": "Aplicación de escritorio para Windows que integra Creaform y PolyWorks para automatizar flujos de escaneo 3D, monitorear sesiones y simplificar operaciones técnicas desde una interfaz especializada.",
+    "image": "",
+    "tech": ["C#", ".NET 9", "Windows Forms", "Creaform API", "PolyWorks", "Desktop"],
+    "github": "https://github.com/miguelcadeiras/CSX",
+    "demo": ""
   }
 ]
